@@ -1,0 +1,172 @@
+@font-face{
+    font-family: 'NanumSquareRoundR';
+    src: url('../fonts/Nanum/NanumSquareRoundR.ttf');
+}
+
+@font-face{
+font-family: 'NotoSansKR-Regular';
+src: url('../fonts/Noto_Sans_KR/NotoSansKR-Regular.otf');
+}
+
+@font-face{
+font-family: 'NotoSansKR-Bold';
+src: url('../fonts/Noto_Sans_KR/NotoSansKR-Bold.otf');
+}
+
+@font-face{
+font-family: 'GoodTimes-Regular';
+src: url('../fonts/GoodTimes/GoodTimes-Regular.ttf');
+}
+
+*, html{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #152238;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+display: inline;
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+border-bottom: 3px solid #a5ffff;
+}
+
+/* ID */
+#contact-us-container{
+  display: inline-block;
+  float: center;
+  padding-bottom: 200px;
+}
+
+#contact-us-headquarter{
+  display: inline-block;
+}
+
+#contact-us-office{
+  display: inline-block;
+}
+/* ID END */
+
+/* CLASS */
+
+.pc-header {
+margin: 40px 0px 0px 60px;
+}
+
+.logo {
+color: white;
+font-size: 25px;
+font-family: 'GoodTimes-Regular';
+}
+
+.header-nav{
+float: right; 
+}
+
+.header-nav ul {
+margin: 0px 150px 0px 0px;
+}
+
+.header-nav ul li{
+padding: 30px;
+font-size: 20px;
+color: whitesmoke;
+}
+
+.active{
+color: #a5ffff;
+}
+
+.content-container {
+margin: 100px 0px 0px 170px;
+}
+
+.content-title {
+display: inline;
+color: white;
+font-family: "NotoSansKR-Bold";
+font-size: 70px;
+width: 300px;
+}
+
+.content {
+display: inline;
+font-family: "NotoSansKR-Regular";
+font-size: 27px;
+color: white;
+margin: 0px 0px 0px 80px;
+width: 300px;
+}
+
+.contact{
+color:white;
+text-align: center;
+float: bottom;
+}
+
+.contact-nav ul {
+    margin: 0px 150px 0px 0px;
+  }
+  
+.contact-nav ul li{
+  padding: 30px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.map1{
+  width: 100%;
+  margin: 50px 0px 0px 170px;
+}
+
+.app-inner1{
+  display: inline;
+  font-family: "NotoSansKR-Regular";
+  font-size: 15px;
+  color: white;
+  width: 300px;
+  }
+
+.map2{
+  width: 100%;
+  margin: 100px 0px 0px 170px;
+}
+
+.app-inner2{
+  display: inline;
+  font-family: "NotoSansKR-Regular";
+  font-size: 15px;
+  color: white;
+  width: 300px;
+}
+
+.googlemap-responsive1{
+  width: 100%;
+  margin: 30px 0px 0px 170px;
+}
+
+.googlemap-responsive2{
+  width: 100%;
+  margin: 30px 0px 0px 170px;
+}
+
+  /* CLASS END */
+  
