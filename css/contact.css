@@ -24,13 +24,13 @@ src: url('../fonts/GoodTimes/GoodTimes-Regular.ttf');
 }
 
 body {
-  background-color: #152238;
+  background-color: #d7d2ce;
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
-ul {
+/* ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -47,13 +47,14 @@ li a{
 
 li a:hover {
 border-bottom: 3px solid #a5ffff;
-}
+} */
 
 /* ID */
-#contact-us-container{
-  display: inline-block;
-  float: center;
-  padding-bottom: 200px;
+
+#logo {
+  height: 30px;
+  margin-top: 35px;
+  margin-left: 100px;
 }
 
 #contact-us-headquarter{
@@ -68,29 +69,35 @@ border-bottom: 3px solid #a5ffff;
 /* CLASS */
 
 .pc-header {
-margin: 40px 0px 0px 60px;
-}
-
-.logo {
-color: white;
-font-size: 25px;
-font-family: 'GoodTimes-Regular';
+  width: 100%;
+  height: 100px;
+  background-color: white;
 }
 
 .header-nav{
-float: right; 
+  float: right;
 }
 
 .header-nav ul {
-margin: 0px 150px 0px 0px;
+  margin: 35px 150px 0px 0px;
 }
 
 .header-nav ul li{
-padding: 30px;
-font-size: 20px;
-color: whitesmoke;
+  padding-right: 130px;
+  display: inline;
+  color: black;
 }
 
+.header-nav ul li a{
+  color: #152238;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "NotoSansKR-Regular";
+}
+
+.header-nav ul li a:hover{
+  border-bottom: 3px solid #00BFFF;
+}
 .active{
 color: #a5ffff;
 }
@@ -101,7 +108,7 @@ margin: 100px 0px 0px 170px;
 
 .content-title {
 display: inline;
-color: white;
+color: #152238;
 font-family: "NotoSansKR-Bold";
 font-size: 70px;
 width: 300px;
@@ -116,11 +123,11 @@ margin: 0px 0px 0px 80px;
 width: 300px;
 }
 
-.contact{
+/* .contact{
 color:white;
 text-align: center;
 float: bottom;
-}
+} */
 
 .contact-nav ul {
     margin: 0px 150px 0px 0px;
@@ -141,9 +148,9 @@ float: bottom;
   display: inline;
   font-family: "NotoSansKR-Regular";
   font-size: 15px;
-  color: white;
+  color: #152238;
   width: 300px;
-  }
+}
 
 .map2{
   width: 100%;
@@ -154,7 +161,7 @@ float: bottom;
   display: inline;
   font-family: "NotoSansKR-Regular";
   font-size: 15px;
-  color: white;
+  color: #152238;
   width: 300px;
 }
 

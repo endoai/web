@@ -8,4 +8,6 @@ $(document).ready(function(){
             this.className += " active";
         });
     }
+
+    document.getElementById("background-video").playbackRate = 0.7;
 });
